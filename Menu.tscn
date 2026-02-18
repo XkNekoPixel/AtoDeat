@@ -4,12 +4,14 @@
 [ext_resource type="PackedScene" uid="uid://bghbggvm3px1t" path="res://AOD/Assets/3dModel/tv.fbx" id="2_5yleq"]
 
 [sub_resource type="Environment" id="Environment_uubjt"]
+background_mode = 1
 
 [node name="menu" type="Node3D" unique_id=970896130]
 script = ExtResource("1_uubjt")
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=440273950]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6, 0.8899412, 3)
+fov = 62.8
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=699796150]
 transform = Transform3D(1, 0, 0, 0, 0.19483359, 0.9808364, 0, -0.9808364, 0.19483359, 0, 3, 2)
@@ -18,4 +20,4 @@ transform = Transform3D(1, 0, 0, 0, 0.19483359, 0.9808364, 0, -0.9808364, 0.1948
 environment = SubResource("Environment_uubjt")
 
 [node name="tv" parent="." unique_id=685540036 instance=ExtResource("2_5yleq")]
-transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.17963934, 0, -0.8906535)
+transform = Transform3D(-0.8660253, 0, -0.50000006, 0, 1, 0, 0.50000006, 0, -0.8660253, -0.8711448, 0, 0.10934651)

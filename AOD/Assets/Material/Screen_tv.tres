@@ -1,7 +1,14 @@
 [gd_resource type="ShaderMaterial" format=3 uid="uid://dgckfu0612uwv"]
 
-[ext_resource type="Shader" uid="uid://clssbfac04fmn" path="res://AOD/Assets/shaders/3dmodel/Screen_tv.tres" id="1_kfkir"]
+[ext_resource type="Shader" uid="uid://doyl0thcgskso" path="res://AOD/Assets/shaders/3dmodel/Screen_tv.gdshader" id="1_kfkir"]
 
 [resource]
 render_priority = 0
 shader = ExtResource("1_kfkir")
+shader_parameter/enable_noise = true
+shader_parameter/enable_black_screen_when_noise_off = true
+shader_parameter/speed = 18.426000827735
+shader_parameter/pixel_size = 0.018000000855
+shader_parameter/brightness = 4.3070001570825
+shader_parameter/scanline_strength = 0.3
+shader_parameter/scanline_speed = 1.5
