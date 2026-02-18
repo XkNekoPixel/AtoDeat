@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://phr02jwjgk3g"]
+
+[ext_resource type="Script" uid="uid://dc3swrlh2l1fg" path="res://AOD/scripts/menu.gd" id="1_uubjt"]
+
+[sub_resource type="Environment" id="Environment_uubjt"]
+
+[node name="menu" type="Node3D" unique_id=970896130]
+script = ExtResource("1_uubjt")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=440273950]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6, 0.8899412, 3)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=699796150]
+transform = Transform3D(1, 0, 0, 0, 0.25881907, 0.9659258, 0, -0.9659258, 0.25881907, 0, 3, 2)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1399825994]
+environment = SubResource("Environment_uubjt")
