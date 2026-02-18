@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://1un204djx0m5"]
+
+[ext_resource type="Texture2D" uid="uid://ua8yruy4m3ee" path="res://AOD/Assets/Texture/tv.png" id="1_xfjew"]
+
+[resource]
+albedo_texture = ExtResource("1_xfjew")
+texture_filter = 0

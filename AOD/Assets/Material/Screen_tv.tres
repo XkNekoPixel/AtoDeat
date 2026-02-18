@@ -1,0 +1,7 @@
+[gd_resource type="ShaderMaterial" format=3 uid="uid://dgckfu0612uwv"]
+
+[ext_resource type="Shader" uid="uid://clssbfac04fmn" path="res://AOD/Assets/shaders/3dmodel/Screen_tv.tres" id="1_kfkir"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_kfkir")

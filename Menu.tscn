@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://phr02jwjgk3g"]
 
 [ext_resource type="Script" uid="uid://dc3swrlh2l1fg" path="res://AOD/scripts/menu.gd" id="1_uubjt"]
+[ext_resource type="PackedScene" uid="uid://bghbggvm3px1t" path="res://AOD/Assets/3dModel/tv.fbx" id="2_5yleq"]
 
 [sub_resource type="Environment" id="Environment_uubjt"]
 
@@ -11,7 +12,10 @@ script = ExtResource("1_uubjt")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.6, 0.8899412, 3)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=699796150]
-transform = Transform3D(1, 0, 0, 0, 0.25881907, 0.9659258, 0, -0.9659258, 0.25881907, 0, 3, 2)
+transform = Transform3D(1, 0, 0, 0, 0.19483359, 0.9808364, 0, -0.9808364, 0.19483359, 0, 3, 2)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1399825994]
 environment = SubResource("Environment_uubjt")
+
+[node name="tv" parent="." unique_id=685540036 instance=ExtResource("2_5yleq")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -0.17963934, 0, -0.8906535)
